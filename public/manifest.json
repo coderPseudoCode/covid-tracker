@@ -1,0 +1,21 @@
+{
+  "short_name": "COVID-19 Tracker",
+  "name": "Corona Virus Disease Tracker",
+  "description": "An application to track the spread and effect of the corona virus disease globally",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "img/logo300x300.png",
+      "type": "image/png",
+      "sizes": "288x287"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#031627",
+  "background_color": "#eeeeee"
+}

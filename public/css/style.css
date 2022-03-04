@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+html,
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-brand span {
+  color: #aa5500;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.box-shadow {
+  box-shadow: 0 0 5px 1px #2223;
+}
+
+.box-shadow-inverse {
+  box-shadow: 0 -1px 4px 0 rgb(170 85 85 / 20%);
+}
+.box-shadow-0,
+.box-shadow-0:focus {
+  box-shadow: none !important;
+}
+
+.text-default {
+  color: #031627;
+}
+.bg-default {
+  background-color: #031627;
+}
+
+.nav-item .active {
+  font-weight: 600;
+  color: #ff9900 !important;
+  background-color: transparent !important;
+}
+
+.details {
+  max-height: 410px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.stat-title {
+  text-shadow: 1px 1px 1px #000;
+}
+
+.cards {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 420px;
+}
+
+.footer {
+  line-height: 3em;
+}
